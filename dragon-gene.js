@@ -1,9 +1,12 @@
 /**
  * DragonGene gives you a simple starting place for class-like inheritance seen
- * in other languages like C++ and Python
- * To create a class inheritance, simply call `.inherit()` on any DragonGene
- * class w/ an (optional) object in JSON or JSLiteral Notation
- * Instantiate your new class by calling `new <ClassName>()`
+ * in other languages like C++ and Python.
+ *
+ * To create a new class, simply call `var Class = DragonGene.inherit()`
+ * w/ an (optional) object in JSON or Literal Notation
+ *
+ * Instantiate your new class by calling `var classInstance = new Class()`
+ * Inherit from your new class by calling `var SubClass = Class.inherit()`
  */
 var DragonGene = function() {};
 
